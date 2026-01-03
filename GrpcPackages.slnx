@@ -1,5 +1,6 @@
 <Solution>
   <Folder Name="/src/">
+    <Project Path="src/Greeter.Client/Greeter.Client.csproj" />
     <Project Path="src/Greeter.Server/Greeter.Server.csproj" />
   </Folder>
 </Solution>
