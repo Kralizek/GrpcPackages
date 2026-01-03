@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>Greeter.Contracts</id>
+    <version>1.0.0</version>
+    <authors>Renato Golia</authors>
+    <license type="expression">MIT</license>
+    <description>Contracts for the Greeter service.</description>
+
+    <contentFiles>
+      <files include="any/any/contracts/*.proto" buildAction="None" />
+    </contentFiles>
+  </metadata>
+
+  <files>
+    <file src="*.proto" target="contentFiles\any\any\contracts" />
+  </files>
+</package>
